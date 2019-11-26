@@ -68,7 +68,7 @@ nav {
   align-items: center;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
