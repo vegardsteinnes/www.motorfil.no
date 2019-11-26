@@ -57,12 +57,15 @@ nav {
 
 .content {
   text-align: center;
-  width: 50%;
+  width: 75%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   font-family: 'Source Sans Pro', sans-serif;
   align-content: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -96,6 +99,8 @@ nav {
 
   .content {
     width: 75%;
+    display: flex;
+    flex-direction: column;
   }
 
   .nav-activate {
