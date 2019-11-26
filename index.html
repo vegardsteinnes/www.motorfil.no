@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="jquery-3.4.1.min.js"></script>
+  <script src="app.js"></script>
 </head>
 
 <body>
@@ -34,14 +35,10 @@
       <div class="line3"></div>
     </div>
   </nav>
-  <script src="app.js"></script>
-  <div class="content">
-    <iframe id="motorfil" src="https://www.finn.no/pw/search/car-norway?orgId=272652013" width="100%" height="1080px" frameborder="0" scrolling="auto" /></iframe>
-    <iframe id="saauto" src="https://www.finn.no/pw/search/car-norway?orgId=300774363" width="100%" height="1080px" frameborder="0" scrolling="auto" /></iframe>
-    <br>
-  </div>
+    <div class="content">
+      <iframe src="https://www.finn.no/pw/search/car-norway?orgId=272652013" /></iframe>
+      <iframe src="https://www.finn.no/pw/search/car-norway?orgId=300774363" /></iframe>
+    </div>
 </body>
-<script type="text/javascript">
-  iFrameResize({ log: true }, '#motorfil')
-</script>
+
 </html>
