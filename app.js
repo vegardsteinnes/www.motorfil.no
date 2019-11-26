@@ -20,13 +20,13 @@ const navSlide = () => {
       if ($(window).width() > 768) {
         nav.classList.remove('nav-deactivate');
       } else {
-        
+
       }
     });
   });
 }
 
-
 $(document).ready(function() {
   navSlide();
+  resizeIframe();
 });
